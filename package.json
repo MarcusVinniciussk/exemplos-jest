@@ -1,0 +1,21 @@
+{
+  "name": "marcusv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --config ./jest.config.js",
+    "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --config ./jest.config.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+  
+}
